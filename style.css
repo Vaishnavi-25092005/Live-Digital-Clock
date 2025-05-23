@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.clock-container {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 15px;
+}
+
+.time {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.date, .day {
+  font-size: 1.5rem;
+}
